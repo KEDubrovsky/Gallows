@@ -29,7 +29,7 @@ public class GoGame {
                 }
             }
             Gallows.print(errorCount);
-            System.out.println("неудачных попыток " + errorCount);
+            System.out.println("Неудачных попыток " + errorCount);
             System.out.println("Отгадываемое слово " + Arrays.toString(wordMask));
         }
         System.out.println("Правильное слово " + Arrays.toString(secretWordLetters));
